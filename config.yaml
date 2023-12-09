@@ -1,0 +1,9 @@
+config:
+  openai:
+    # 以下是 OpenAI
+    chat_model: "<MODEL-VERSION>"
+    openai_api_key: "<API-KEY>"
+    # 以下是 Azure 额外需要的配置
+    openai_api_type: "azure"
+    openai_api_version: "2023-06-01-preview"
+    openai_api_base: "<AZURE_OPENAI_ENDPOINT>"
